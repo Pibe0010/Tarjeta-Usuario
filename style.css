@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    
+    background: linear-gradient(to bottom left,  #ff3867 ,  #ffc873 ,  #d37ec6);
+}
+.container {
+    width: 450px;
+    height: 600px;
+    margin: 40px auto;
+    border-radius: 2%;
+    background-color: aliceblue;
+    box-shadow: 0 5px 5px 2px  #888888;
+}
+div header {
+    width: 450px;
+    height: 200px;
+    border-bottom: 2px solid #ff3867;
+    background-image: url(/img/pexels-tima-miroshnichenko-5380792.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 2px solid #ff3867;
+    margin: -80px auto;
+    display: flex;
+}
+section {
+    margin: 100px 50px;
+    text-align: center;
+}
+section:nth-child(1) {
+    color: #a05d5d;
+    margin:  6px;
+    font-weight: 10px;
+    animation: alternate 1s ease-in-out;
+}
+
+section .material-symbols-outlined {
+    color: #a05d5d;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+section article {
+    margin-bottom: 35px;
+    padding: 20px;
+    color:  #888888;
+}
+section a {
+    font-size: 10px;
+    padding: 10px 30px ;
+    text-decoration: none;
+    border: 1px solid  #2d7cbf;
+    border-radius: 50rem;
+    transition: background 1s ease-out;
+}
+section a:hover {
+    background-color: #027ce6;
+    color: aliceblue;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px -50px;
+    
+}
+footer div .material-symbols-outlined {
+    color: #040000;
+    gap: 3px;
+    font-size: 15px;
+    padding: 1px 0;
+    
+}
+.item1 {
+    color: #888888;
+    border: .5px solid #888888;
+    width: 150px;
+}
+.item2 {
+    color: #888888;
+    border-top: .5px solid #888888;
+    border-bottom: .5px solid #888888;
+    width: 150px;
+
+}
+.item3 {
+    color: #888888;
+    border: .5px solid #888888;
+    width: 150px;
+}
+
+
